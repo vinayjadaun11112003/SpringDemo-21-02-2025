@@ -18,4 +18,5 @@ public class RestControllerss {
     public String getHello() {
         return "Hello from BridgeLabzz";
     }
+
 }
