@@ -11,4 +11,11 @@ public class RestControllerss {
     public String sayHello() {
         return "Hello from BridgeLabz";
     }
+
+
+    //UC03 : GET Request from /get path.
+    @GetMapping("/get")
+    public String getHello() {
+        return "Hello from BridgeLabzz";
+    }
 }
